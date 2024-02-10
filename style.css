@@ -41,12 +41,12 @@ h2 {
 }
 
 main{
-    width: 80%;
+    width: 90%;
 }
 
 #charactersContainer{
     display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 80px;
     padding-top: 60px;
     padding-bottom: 60px;
@@ -54,7 +54,7 @@ main{
 
 #cart{
     background-color: #043c6e;
-    width: 360px;
+    width: 400px;
     border-radius: 12px;
     overflow: hidden;
     margin-left: auto;
@@ -84,8 +84,14 @@ main{
 }
 
 #response{
-    width: 300%;
+    width: 250%;
     color: #D6ECFF;    
+}
+
+@media (min-width: 1280px) { 
+    #charactersContainer{
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
 }
 
 
