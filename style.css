@@ -54,7 +54,7 @@ main{
 
 #cart{
     background-color: #043c6e;
-    width: 400px;
+    width: 360px;
     border-radius: 12px;
     overflow: hidden;
     margin-left: auto;
@@ -84,7 +84,7 @@ main{
 }
 
 #response{
-    width: 250%;
+    width: 300%;
     color: #D6ECFF;    
 }
 
