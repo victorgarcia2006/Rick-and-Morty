@@ -46,7 +46,7 @@ main{
 
 #charactersContainer{
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 80px;
     padding-top: 60px;
     padding-bottom: 60px;
@@ -88,9 +88,9 @@ main{
     color: #D6ECFF;    
 }
 
-@media (min-width: 1280px) { 
+@media not all and (min-width: 1536px) { 
     #charactersContainer{
-        grid-template-columns: repeat(4, minmax(0, 1fr));
+        grid-template-columns: repeat(3, minmax(0, 1fr));
     }
 }
 
