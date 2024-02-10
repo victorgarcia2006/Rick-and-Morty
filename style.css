@@ -1,0 +1,91 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0E263B;
+}
+
+header{
+    background-image: url(420-rick-and-morty-chromebook-wallpaper.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+h1{
+    position: absolute;
+    font-size: 6rem;
+    background-color: #3E4452;
+    opacity: 0.9;
+    color: #fff;
+    mix-blend-mode: multiply;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    color: #60a85f;
+}
+
+main{
+    width: 90%;
+}
+
+#charactersContainer{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 80px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#cart{
+    background-color: #043c6e;
+    width: 400px;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    box-shadow: 0 0 10px 0 #000000;
+}
+
+#info {
+    padding: 0px 20px 20px 20px;
+}
+
+#cart img{
+    width: 100%;
+    height: 240px;
+}
+
+#descripcion{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+    width: 60%;
+}
+
+#title {
+    color: #ebe480;
+}
+
+#response{
+    width: 250%;
+    color: #D6ECFF;    
+}
+
+
